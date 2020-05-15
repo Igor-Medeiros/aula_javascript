@@ -1,5 +1,31 @@
+function botao(){
+    document.getElementById("agradecimento").innerHTML = "Obrigado por clicar";
+}
 
+function redirecionar(){
+    window.open("https://youtube.com");
+    //window.location.href = "http://google.com.br";
+}
 
+function trocar(elemento){
+    //document.getElementById("mousemove").innerHTML = "Obrigado!!!"
+    //alert("trocar texto");
+    elemento.innerHTML = "Obrigado!!!"
+}
+
+function voltar(elemento){
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui!"
+    elemento.innerHTML = "Passe o mouse aqui!"
+}
+
+function load(){
+    alert("Pagina carregada!");
+}
+
+function funcaoChange(elemento){
+    alert(elemento.value)
+
+}
 /*
 function soma(n1, n2){
     return n1 + n2;
